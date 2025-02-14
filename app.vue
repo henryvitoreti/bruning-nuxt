@@ -5,7 +5,8 @@
 </script>
 
 <template>
-  <div>
+  <div class="container mt-5">
+    <h6 class="text-left mb-4">Bruning Sistemas</h6>
     <NuxtPage />
   </div>
 </template>

@@ -10,6 +10,9 @@ RUN npm install
 # Copiar todos os arquivos do projeto
 COPY . .
 
+# Construir o projeto Nuxt
+RUN npm run build
+
 # Expor a porta padrão do Nuxt
 EXPOSE 3000
 
